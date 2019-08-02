@@ -33,8 +33,15 @@ const apps = {
     }
   },
 };
-
+// const orderFunction = (order, array) => {
+//   if (order === '0') {
+//     const ascOrder = array.sort((firstYear, secondYear) => firstYear.Year - secondYear.Year);
+//     return ascOrder
+//   } else {
+//     const descOrder = array.sort((firstYear, secondYear) => secondYear.Year - firstYear.Year);
+//     return descOrder
+//   }
+// };
+// window.orderFunction = orderFunction;
 window.app = app;
 window.apps = apps;
-
-
