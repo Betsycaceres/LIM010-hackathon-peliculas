@@ -58,10 +58,11 @@ const createTemplateCardSeries = list => {
   });
   movieContainer.innerHTML = templateCard;
 };
+
 const searchMovies = () => {
   let newArraySearch = new Array();
   newArraySearch.push(searchMovieInput.value);
   app.showAllMovieSerie(urlMovie, newArraySearch);
   carousel.classList.add('hide')
 };
-buttonSearchMovie.addEventListener('click', searchMovies);
+buttonSearchMovie.addEventListener('click', searchMovies); 
