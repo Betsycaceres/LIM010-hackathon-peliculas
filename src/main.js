@@ -58,13 +58,6 @@ const createTemplateCardSeries = list => {
   });
   movieContainer.innerHTML = templateCard;
 };
-
-// orderSelection.addEventListener('change', (event) => {
-//   const order = event.target.value;
-//   const ordenar = orderFunction(order, data);
-//   movieContainer.innerHTML = createTemplateCard(ordenar)
-// });
-
 const searchMovies = () => {
   let newArraySearch = new Array();
   newArraySearch.push(searchMovieInput.value);
